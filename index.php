@@ -6,5 +6,5 @@
  */
 
   echo 12314;
-  echo '<h1>Rodrigo<h1>';
+  echo '<h1 style="color:red">Rodrigo</h1>';
 ?>
