@@ -29,7 +29,7 @@
         
     }
     
-    if($mediaFinal >= 5.0)
+    if($mediaFinal >= 5.0 )
     {
         echo'Aprovado com Prova Final';
         echo'Agora já pode descansar tranquilo';
