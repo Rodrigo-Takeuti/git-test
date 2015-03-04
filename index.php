@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Exercicio4</title>
+    <title>Fibonacci</title>
     <meta charset="UTF-8">
     <?php
-        $num = 77;
-        $cont = 0;
+        $n = 10;
+        $posterior = 0;
+        $anterior = 1;
+        $atual;
         
-        if($num % 2 == 0)
+        for($i = 0; $i < n; $i++)
         {
-            $cont++;
-        }
-        
-        if($cont == 2)
-        {
-            echo 'O número é primo!!!';
-        }else{
-            echo 'O número não é primo!!!';
+            $atual = $posterior + $anterior;
+            echo"$atual";
+            $posterior = $anterior;
+            $anterior = $atual;
+            
         }
     ?>
 </head>
