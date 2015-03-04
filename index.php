@@ -14,9 +14,9 @@
         
         if($cont == 2)
         {
-            echo 'O número é primo!!!'
+            echo 'O número é primo!!!';
         }else{
-            echo 'O número não é primo!!!'
+            echo 'O número não é primo!!!';
         }
     ?>
 </head>
